@@ -1,0 +1,62 @@
+/*Selector	{
+	Property : Value;
+}*/
+
+
+*{
+	text-align: right;
+}
+
+body{
+	background-image: url(bg.jpg);
+	background-size: cover;
+}
+
+/*h2 ,p {
+	color :#AA4139;
+	text-align: center;
+	border: 5px solid rgba(255, 170, 170,0.5);
+	cursor:pointer;
+}*/
+
+h2 , p{
+	color :#AA4139;
+	text-align: center;
+	border: 5px solid rgba(255, 170, 170,0.5);
+	cursor:pointer;
+}
+
+img {
+	float:right;
+}
+
+p  {
+	text-transform: lowercase; 
+	line-height: 30px;
+	font-style: italic;
+	font-weight:bold;
+	font-size: 150%;
+	font-family: 'Merriweather', serif;
+}
+
+li	{
+	list-style: none;
+	display:inline-block;
+}
+
+
+.webtext:first-child	{
+	border:5px dashed rgb(42, 127, 64);
+}
+
+.active	{
+	color:red;
+}
+
+#div1	{
+	background: rgba(0,0,255,0.2)
+}
+
+#div2	{
+	background: rgba(255,0,0,0.2)
+}
